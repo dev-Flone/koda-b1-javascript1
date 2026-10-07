@@ -17,7 +17,7 @@ switch(mode) {
             if (i % 2 == 0) {
             console.log(`${i} Genap`);
             } else {
-            console.log(`${i} Ganjil`);
+                console.log(`${i} Ganjil`);
             }
         }
     break;
