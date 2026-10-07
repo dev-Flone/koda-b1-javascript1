@@ -12,13 +12,12 @@ switch(mode) {
     break;
 
   case "oddeven":
-    for (i = 1; i <= 20; i++) {
+    for (i = 0; i <= 20; i++) {
       if (i % 2 == 0) {
-        console.log("Genap");
+        console.log(`${i} Genap`);
       } else {
-        console.log("Ganjil");
+        console.log(`${i} Ganjil`);
       }
-      console.log(i);
     }
     break;
 
