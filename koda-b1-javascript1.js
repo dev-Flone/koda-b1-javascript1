@@ -1,6 +1,6 @@
 const phi = 3.14
 let r = 10
-let operasi = false
+let operasi = true
 
 if (operasi){
     let luas = phi * r * r
