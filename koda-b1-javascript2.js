@@ -6,13 +6,15 @@ const we = {
         }
     }
 }
-console.log(we.are.the.best)
+const { are: { the: { best}}} = we
+console.log(best)
 
 // 2
 const hello = {
     world: "Hello World"
 }
-console.log(hello.world)
+const {world} = hello
+console.log(world)
 
 // 3
 const obj = {
@@ -23,7 +25,6 @@ const obj = {
             ]}
         ]
     ]]
-    
 }
 console.log(obj.str[3][1][2].man[0].tech.academy)
 
