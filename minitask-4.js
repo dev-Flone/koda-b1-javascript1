@@ -9,7 +9,7 @@ switch(mode) {
             } else {
                 console.log(i)
             }
-    }
+        }
     break;
 
     case "oddeven":
