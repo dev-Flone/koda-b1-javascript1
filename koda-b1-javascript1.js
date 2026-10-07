@@ -9,5 +9,3 @@ if (operasi){
     let keliling = 2 * phi * r
     console.log("Keliling Lingkaran = ", keliling)
 }
-
-
