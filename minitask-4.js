@@ -20,7 +20,7 @@ switch(mode) {
       }
       console.log(i);
     }
-    break; // 💡 Added break to prevent falling through
+    break;
 
   case "multiplication":
     for (i = 1; i <= 20; i++) {
